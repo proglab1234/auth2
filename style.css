@@ -1,0 +1,118 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+  }
+  
+  h1, h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Form Container */
+  form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+  
+  form h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Profile Page */
+  .profile-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-container p {
+    margin: 0.5rem 0;
+  }
+  
+  .profile-container strong {
+    color: #333;
+  }
+  
+  .profile-container button {
+    margin-top: 1rem;
+  }
+  
+  /* Home Page */
+  .home-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .home-container h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Center Page */
+  .center-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
